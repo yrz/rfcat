@@ -1,0 +1,26 @@
+-muwx
+-i appSniff.ihx
+-M
+-Y
+-b HOME = 0x0000
+-b XSEG = 0xf000
+-b PSEG = 0xf000
+-b ISEG = 0x0000
+-b BSEG = 0x0000
+-k /usr/bin/../share/sdcc/lib/small
+-k /usr/share/sdcc/lib/small
+-l mcs51
+-l libsdcc
+-l libint
+-l liblong
+-l libfloat
+appSniff.rel
+cc1111rf.rel
+global.rel
+cc1111_aes.rel
+immeio.rel
+immekeys.rel
+immefont.rel
+chipcon_dma.rel
+
+-e
